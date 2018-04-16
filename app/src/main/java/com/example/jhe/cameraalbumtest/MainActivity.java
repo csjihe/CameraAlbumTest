@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (Build.VERSION.SDK_INT >= 24) {
                     imageUri = FileProvider.getUriForFile(MainActivity.this,
-                            "com.example.cameraalbumtest.fileprovider", outputImage);
+                            "com.example.jhe.cameraalbumtest.fileprovider", outputImage);
                 } else {
                     imageUri = Uri.fromFile(outputImage);
                 }
